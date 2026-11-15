@@ -1,4 +1,6 @@
-jmal/jmalcloud-sql:2.16.10
+jmal/jmalcloud-sql:latest
 oxidized/oxidized:latest
 metacubex/mihomo:latest
 containrrr/watchtower:latest
+guohuiyuan/go-music-dl:latest
+alexta69/metube:latest
