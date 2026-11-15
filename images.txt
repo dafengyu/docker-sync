@@ -15,3 +15,5 @@ ywsj/video-downloader:latest
 ywsj/mirror-relay:latest
 outlovecn/portainer-cn:latest
 apkdv/siyuan-unlock:latest
+diouxx/glpi:latest
+inventree/inventree:stable
