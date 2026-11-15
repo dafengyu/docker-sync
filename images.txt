@@ -1,0 +1,4 @@
+jmal/jmalcloud-sql:2.16.10
+oxidized/oxidized:latest
+metacubex/mihomo:latest
+containrrr/watchtower:latest
