@@ -1,7 +1,10 @@
 jmal/jmalcloud-sql:latest
 oxidized/oxidized:latest
+metacubex/mihomo:latest
+containrrr/watchtower:latest
 guohuiyuan/go-music-dl:latest
 alexta69/metube:latest
+ghcr.io/caramelfur/picsur:latest
 linkease/kspeeder:latest
 jbtronics/part-db1:latest
 halcyonazure/lsky-pro-docker:latest
