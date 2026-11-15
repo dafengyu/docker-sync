@@ -17,3 +17,5 @@ outlovecn/portainer-cn:latest
 apkdv/siyuan-unlock:latest
 diouxx/glpi:latest
 inventree/inventree:stable
+imgzcq/iconstation:latest
+ghcr.io/caramelfur/picsur:latest
