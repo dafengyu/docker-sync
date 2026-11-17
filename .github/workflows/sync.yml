@@ -5,8 +5,12 @@ on:
     branches: [ main, master ]
     paths:
       - 'images.txt'
+      - '.github/workflows/**'
   schedule:
-    - cron: '0 19 * * *'
+    # 北京时间 02:23（错峰避开整点调度拥堵）
+    - cron: '23 18 * * *'
+    # 北京时间 04:47（二次兜底，确保 06:30 Watchtower 扫描前完成同步）
+    - cron: '47 20 * * *'
   workflow_dispatch:
 
 jobs:
