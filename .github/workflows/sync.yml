@@ -13,9 +13,16 @@ on:
     - cron: '47 20 * * *'
   workflow_dispatch:
 
+# 同一时间只允许运行一个同步任务，新任务触发时自动取消旧的卡死任务
+concurrency:
+  group: sync-docker-images
+  cancel-in-progress: true
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # 正常同步仅需约 2 分钟，超过 15 分钟视为跨境网络假死并自动熔断
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
